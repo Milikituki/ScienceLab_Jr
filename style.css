@@ -7,7 +7,7 @@
 :root {
   --bg-color: #70b7ff;
   --accent-color: #ff9f50;
-  --tg-color: #a7dd3c;
+  --tg-color: #d3fe7e;
   --sec-bg-color: #f6f6f6;
   --sec-accent-color: #ffefa9;
   --th--accent-color: #2a4a7b;
@@ -158,10 +158,14 @@ section figure img {
     width: 100%;
     left: 0;
     z-index: 100;
-    background-color: white;
+    background-color: var(--tg-color);
     padding: var(--spacing);
     display: none;
     flex-direction: column;
+    border-radius: 1.25rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
   }
   .linksMenu li a {
     display: flex;
