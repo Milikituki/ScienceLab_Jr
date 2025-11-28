@@ -146,6 +146,7 @@ section figure img {
   }
   header {
     position: relative;
+    padding: var(--spacing) 0;
   }
   #menu:checked ~ .linksMenu {
     display: flex;
@@ -155,6 +156,8 @@ section figure img {
     position: absolute;
     top: 100%;
     width: 100%;
+    left: 0;
+    z-index: 100;
     background-color: white;
     padding: var(--spacing);
     display: none;
@@ -176,7 +179,7 @@ section figure img {
   }
 }
 
-@media (min-width: 641px) and (max-width: 1280) {
+@media (min-width: 641px) and (max-width: 1280px) {
   h1 {
     font-size: 2rem;
   }
