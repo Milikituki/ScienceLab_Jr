@@ -81,7 +81,7 @@ section figure {
   text-align: center;
 }
 section figure img {
-  width: 50%;
+  width: 100%;
   height: auto;
   border-radius: 1.25rem;
   box-shadow: 10px 10px 5px 0px #bba8a8bf;
@@ -218,5 +218,11 @@ footer {
   }
   .rrss {
     justify-content: right;
+  }
+
+}
+@media (min-width: 769px) {
+  section figure img {
+    width: 50%;
   }
 }
