@@ -212,4 +212,10 @@ footer {
     align-items: flex-end;
     justify-content: flex-end;
   }
+  footer {
+    display: grid;
+  }
+  .rrss {
+    justify-content: right;
+  }
 }
