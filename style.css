@@ -100,6 +100,9 @@ section figure img {
   text-align: center;
   font-size: 1.5rem;
 }
+.experimentos p{
+    margin-bottom: 1.8rem;
+}
 .experimentos ul li {
   display: flex;
   flex-direction: column;
