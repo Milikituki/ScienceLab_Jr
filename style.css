@@ -59,7 +59,7 @@ header {
 
 .linksMenu {
   display: flex;
-  gap: calc(var(--spacing)/2);
+  gap: calc(var(--spacing) / 2);
 }
 .menu {
   display: none;
@@ -100,8 +100,8 @@ section figure img {
   text-align: center;
   font-size: 1.5rem;
 }
-.experimentos p{
-    margin-bottom: 1.8rem;
+.experimentos p {
+  margin-bottom: 1.8rem;
 }
 .experimentos ul li {
   display: flex;
@@ -141,6 +141,28 @@ section figure img {
 }
 .about p {
   margin-top: 0.7rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.2rem solid var(--th--accent-color);
+  padding-top: 2rem;
+}
+.copy {
+  margin-left: 1rem;
+}
+
+.rrss {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.rrss img {
+  width: 30px;
+  height: auto;
+  margin-right: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -191,5 +213,3 @@ section figure img {
     justify-content: flex-end;
   }
 }
-
-
