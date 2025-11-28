@@ -59,7 +59,7 @@ header {
 
 .linksMenu {
   display: flex;
-  gap: var(--spacing);
+  gap: calc(var(--spacing)/2);
 }
 .menu {
   display: none;
@@ -143,7 +143,7 @@ section figure img {
   margin-top: 0.7rem;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   body {
     margin: 1rem;
   }
