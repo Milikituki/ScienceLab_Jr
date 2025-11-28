@@ -141,6 +141,9 @@ section figure img {
 }
 
 @media (max-width: 640px) {
+    h1{
+        font-size: 1.5rem;
+    }
 #menu:checked ~.linksMenu{
     display: flex;
 }
