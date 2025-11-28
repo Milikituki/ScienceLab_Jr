@@ -224,7 +224,7 @@ section figure img {
     width: auto;
     display: flex;
     justify-content: flex-end;
-    text-align: right;
+    text-align: center;
     padding: 0.5rem 1rem;
   }
   .hamburguesa {
